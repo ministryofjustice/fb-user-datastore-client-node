@@ -28,6 +28,7 @@
     "@ministryofjustice/fb-utils-node": "^0.1.2",
     "aes256": "^1.0.4",
     "jsonwebtoken": "^8.3.0",
+    "path-to-regexp": "^2.4.0",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.5"
   }
