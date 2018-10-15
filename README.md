@@ -6,8 +6,6 @@ Client for making requests to Form Builder platform user datastore endpoints
 
 Node
 
-Valid values for serviceSlug, serviceToken, userDataStoreUrl
-
 ## Installation
 
 `npm install @ministryofjustice/fb-user-datastore-client-node`
@@ -18,19 +16,19 @@ Valid values for serviceSlug, serviceToken, userDataStoreUrl
 
 ``` javascript
 // load client
-const userDataStoreClient = require('@ministryofjustice/fb-user-datastore-client-node')
+const FBUserDataStoreClient = require('@ministryofjustice/fb-user-datastore-client-node')
 
 // initialise client
-userDataStoreClient.get(serviceSlug, serviceToken, userDataStoreUrl)
+const userDataStoreClient = new FBUserDataStoreClient(serviceToken, userDataStoreUrl, serviceSlug)
 ```
 
 ### Fetching and storing
 
 ``` javascript
 // fetch user data
-const userData = await userDataStoreClient.get(userId, userToken)
+const userData = await userDataStoreClient.getData(userId, userToken)
 
 // store user data
-await userDataStoreClient.set(userId, userToken, userData)
+await userDataStoreClient.setData(userId, userToken, userData)
 ```
 
