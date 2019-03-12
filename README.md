@@ -19,7 +19,7 @@ Node
 const FBUserDataStoreClient = require('@ministryofjustice/fb-user-datastore-client-node')
 
 // initialise client
-const userDataStoreClient = new FBUserDataStoreClient(serviceToken, serviceSlug, userDataStoreUrl)
+const userDataStoreClient = new FBUserDataStoreClient(serviceSecret, serviceToken, serviceSlug, userDataStoreUrl)
 ```
 
 ### Fetching and storing
