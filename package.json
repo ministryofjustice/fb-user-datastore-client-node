@@ -1,6 +1,6 @@
 {
   "name": "@ministryofjustice/fb-user-datastore-client-node",
-  "version": "0.0.11-alpha",
+  "version": "0.0.17",
   "description": "Form Builder User Data Store Client (Node)",
   "main": "lib/fb-user-datastore-client.js",
   "repository": {
@@ -18,16 +18,16 @@
   "license": "MIT",
   "devDependencies": {
     "@ministryofjustice/eslint-config-fb": "^1.0.4",
-    "jsonwebtoken": "^8.4.0",
+    "jsonwebtoken": "^8.5.0",
     "multi-tape": "^1.2.1",
     "npm-run-all": "^4.1.5",
     "proxyquire": "^2.1.0",
     "request": "^2.88.0",
-    "request-promise-native": "^1.0.5",
-    "sinon": "^7.2.3",
-    "tape": "^4.9.2"
+    "request-promise-native": "^1.0.7",
+    "sinon": "^7.2.7",
+    "tape": "^4.10.1"
   },
   "dependencies": {
-    "@ministryofjustice/fb-jwt-client-node": "0.0.9-alpha"
+    "@ministryofjustice/fb-jwt-client-node": "0.0.17"
   }
 }
