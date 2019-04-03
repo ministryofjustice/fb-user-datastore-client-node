@@ -1,6 +1,6 @@
 {
   "name": "@ministryofjustice/fb-user-datastore-client-node",
-  "version": "0.0.18",
+  "version": "0.0.19",
   "description": "Form Builder User Data Store Client (Node)",
   "main": "lib/fb-user-datastore-client.js",
   "repository": {
@@ -24,10 +24,10 @@
     "proxyquire": "^2.1.0",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.7",
-    "sinon": "^7.3.0",
+    "sinon": "^7.3.1",
     "tape": "^4.10.1"
   },
   "dependencies": {
-    "@ministryofjustice/fb-jwt-client-node": "0.0.18"
+    "@ministryofjustice/fb-jwt-client-node": "0.0.19"
   }
 }
