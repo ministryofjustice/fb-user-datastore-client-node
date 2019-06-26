@@ -27,6 +27,6 @@
     "tape": "^4.10.2"
   },
   "dependencies": {
-    "@ministryofjustice/fb-jwt-client-node": "0.0.26"
+    "@ministryofjustice/fb-jwt-client-node": "0.0.27"
   }
 }
