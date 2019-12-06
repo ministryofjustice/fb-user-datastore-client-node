@@ -1,0 +1,13 @@
+{
+  "env": {
+    "mocha": true
+  },
+  "overrides": [
+    {
+      "files": ["lib/fb-user-datastore-client.spec.js"],
+      "rules": {
+        "no-new": "off"
+      }
+    }
+  ]
+}
